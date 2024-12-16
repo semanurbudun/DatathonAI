@@ -163,7 +163,7 @@ if __name__ == '__main__':
     # Modeli eğit
     model.train(
         data=r"C:\Users\Sema\Desktop\DatathonAI\Dataset\organized_data",  # Veri seti yolu (yapılandırma dosyası burada bulunuyor)
-        epochs=2,  # Eğitim sayısı (kaç epoch boyunca eğitim yapılacağı)
+        epochs=50,  # Eğitim sayısı (kaç epoch boyunca eğitim yapılacağı)
         imgsz=640,  # Görüntü boyutu (modelin giriş görüntülerinin boyutu)
         batch=16,  # Mini-batch boyutu (her adımda kaç görüntü işlenecek)
         name='yolo_classification',  # Eğitim deneyimi adı (sonuçlar burada kaydedilecek)
